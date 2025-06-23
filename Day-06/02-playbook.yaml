@@ -17,3 +17,5 @@
       image_id: ami-04b70fa74e45c3917
       tags:
         Environment: Testing
+
+command->ansible-playbook -i inventory.ini --vault-password-file vault.pass ec2-playbook.yaml
